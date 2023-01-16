@@ -1,0 +1,13 @@
+@import '../../../../../dist/scss/index.scss';
+
+:host{
+  strong{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: $vermelho;
+  }
+}

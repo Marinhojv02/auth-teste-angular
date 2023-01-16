@@ -1,0 +1,26 @@
+.red-btn{
+  width: 100%;
+  height: 60px;
+  left: 508px;
+  top: 570px;
+
+  background: #DD0330;
+  border-radius: 10px;
+  border: none;
+
+  margin: 25px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color:$branco;
+
+  cursor: pointer;
+
+  &:disabled{
+    cursor: no-drop;
+    background: darken($color: $vermelho, $amount: 20%);
+  }
+}
